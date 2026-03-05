@@ -56,23 +56,23 @@ Business-ready aggregated datasets used for analytics and reporting.
 ## Project Structure
 
 taxi-lakehouse-platform/
-
-airflow/
-    dags/
-
-spark_jobs/
-    ingestion/
-    transformations/
-    aggregations/
-
-configs/
-
-data_lake/
-    bronze/
-    silver/
-    gold/
-
-docker/
+│
+├── airflow/
+│   └── dags/
+│
+├── spark_jobs/
+│   ├── ingestion/
+│   ├── transformations/
+│   └── aggregations/
+│
+├── configs/
+│
+├── data_lake/
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
+│
+└── docker/
 
 ---
 
