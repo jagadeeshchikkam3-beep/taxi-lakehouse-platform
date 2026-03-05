@@ -51,10 +51,9 @@ Business-ready aggregated datasets used for analytics and reporting.
 4. Aggregated analytics tables are created in the **Gold Layer**.
 5. These tables power analytical queries and dashboards.
 
----
-
 ## Project Structure
 
+```
 taxi-lakehouse-platform/
 │
 ├── airflow/
@@ -73,8 +72,7 @@ taxi-lakehouse-platform/
 │   └── gold/
 │
 └── docker/
-
----
+```
 
 ## Project Roadmap
 - [ ] Week 1 — Architecture design and environment setup  
